@@ -30,3 +30,26 @@ try {
     console.error(`Unknown error ${err}.`);
   }
 }
+
+switch (!veryFalse) {
+  case false:
+    console.log("False");
+    break;
+  case true:
+    console.log("True");
+    break;
+  default:
+    console.error(veryFalse);
+}
+
+const x = "w";
+switch (x) {
+  case "wow":
+    console.log(x);
+    break;
+  case 2:
+    console.log(x);
+    break;
+  default:
+    throw new Error("Not 2 or wow.");
+}
