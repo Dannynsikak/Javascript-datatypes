@@ -90,4 +90,11 @@ person3.name.updateFirstName("Jonathan");
 console.log(person3);
 console.log(typeof person3);
 
+// As you might have noticed, there might be some advantages and disadvantages between writing a custom type and custom class object.
+
+// One clear advantage between the two is that a developer can check the actual object if they are an instance of a certain class object with the instanceof keyword.
+
+// console.log(person instanceof Person)
+// TypeScript
 // You cannot do this if you only write the type (or interface which will be discussed in Quest 3).
+
