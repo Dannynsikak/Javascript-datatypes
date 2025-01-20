@@ -16,4 +16,4 @@ function plus(
 
 console.log(plus(2025, 1));
 console.log(plus(undefined, 21));
-console.log(plus("StackUp", "Learn"));
+console.log(plus("Ofonime", "Nsikak"));
